@@ -7,9 +7,9 @@
     <nav>
       <ul>
         <li><a class="active" href="/discord/">Home</a></li>
-        <li><a href="Info.html">Info</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="Links.html">Links</a></li>
+        <li><a href="/Info.html">Info</a></li>
+        <li><a href="/Contact.html">Contact</a></li>
+        <li><a href="/Links.html">Links</a></li>
       </ul>
     </nav>
   </header>
@@ -419,6 +419,25 @@ footer {
 }
 
 @media(max-width: 600px) {
+  .inner_footer .logo_container,
+  .inner_footer .footer_third {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 970px max-aspect-ratio: 20/9) {
+  .footer .inner_footer {
+    width: 90%;
+  }
+
+  .inner_footer .logo_container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 600px max-aspect-ratio: 20/9) {
   .inner_footer .logo_container,
   .inner_footer .footer_third {
     width: 100%;
